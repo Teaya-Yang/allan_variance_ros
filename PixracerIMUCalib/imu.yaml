@@ -1,0 +1,21 @@
+# #Accelerometer
+# accelerometer_noise_density: 0.0014423277316716377 
+# accelerometer_random_walk: 0.00012039146975863108 
+
+# #Gyroscope
+# gyroscope_noise_density: 0.00010547584853778763 
+# gyroscope_random_walk: 8.66855547998756e-06 
+
+# Above are measured values
+
+# White noise (x5)
+accelerometer_noise_density: 0.00721163865
+gyroscope_noise_density: 0.00052737924
+
+# Random walk (x10)
+accelerometer_random_walk: 0.0012039146975863108 
+gyroscope_random_walk: 8.66855547998756e-05
+
+rostopic: '/imu_data113' 
+update_rate: 487 
+
